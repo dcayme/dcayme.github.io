@@ -1,0 +1,68 @@
+/*what does this part do?*/
+body,
+html {
+	width: 100%;
+	height:100%;
+}
+
+/*Set the font for all of the body*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Set details for line, makes line shorter, thicker, and changes color*/
+hr{
+	max-width: 65px;
+	border-width:3px;
+	border-color: #F05F44;
+}
+
+/*Changes the color of the font to face and show 80% color*/
+.faded {
+	color: rgba(255, 255, 255, 0.8); 
+}
+
+/*add background image. put it in the center, modify size and  cover stretches image to fill the area
+height adjusts the header to fill the full screen*/
+header.startup {
+  height: 100%;
+  background-position: center;
+  background-image: url("header.jpg");
+  background-size: cover;
+}
+
+header.startup hr{
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+/*changed the font inside of the header with class startup and within h1*/
+header.startup h1 {
+	font-size: 2rem;
+}
+
+/*Makes Bold; makes uppercase; changes corners to be more rounded*/
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Changed button padding size*/
+ .btn-xl {
+  padding: 1rem 2rem;
+}
+
+/*Changed button color and border*/
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #ee4b08;
+}
+/*Changed hover color for button and border. makes border larger when hover. makes sure becomes pointer when hover over*/
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 5px;
+	cursor: pointer;
+}
